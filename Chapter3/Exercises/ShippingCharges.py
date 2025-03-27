@@ -10,5 +10,19 @@
 
 weightOfPackage = float(input("Enter the weight of your package: "))
 
-if 
+rate = 1.00
+if weightOfPackage < 2:
+    rate = 1.50
+if weightOfPackage > 2 and weightOfPackage < 7:
+    rate = 3.00
+if weightOfPackage > 6 and weightOfPackage < 11:
+    rate = 4.00
+if weightOfPackage > 10:
+    rate = 4.75
+
+finalPrice = weightOfPackage * rate
+
+
+print("The final price is: ", finalPrice)
+
 
