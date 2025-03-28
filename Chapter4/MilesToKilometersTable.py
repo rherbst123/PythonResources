@@ -11,5 +11,5 @@ table should be generated using a loop, and should include values in 10 mile inc
 print(" Miles",15*" ", "Kilometers")
 print(34*"=") 
 for i in range(10,81, 10):
-    print(i, 20*" ", i * 1.60934)
+    print(" ",i, 19*" ", i * 1.60934)
     
