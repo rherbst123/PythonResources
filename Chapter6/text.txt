@@ -1,0 +1,9 @@
+This is a sample text file.
+It contains some example text for demonstration purposes.
+You can modify or extend this content as needed.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+Nulla quis sem at nibh elementum imperdiet.
+
+Enjoy working with your sample text!

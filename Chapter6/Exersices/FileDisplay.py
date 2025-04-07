@@ -3,6 +3,6 @@
 # puter’s disk. Write a program that displays all of the numbers in the file.
 
 
-text = open("C:\\Users\\riley\\Desktop\\Transcription(Post-Seg).txt", encoding='utf-8')
-
-print(text)
+f = open("Chapter6\\numbers.txt", 'r')
+for i in f:
+    print(i, end='')
