@@ -14,16 +14,14 @@ the values 1 through 10 as arguments and displays the return value. """
 
 def main():
     time = int(input("How much time has passed: "))
-    
-    distance = physics(time)
-
-    print(f"the object has fallen {distance}")
+    physics(time)
     return 0
+    
 
 
 def physics(time):
     gravity = 9.8
-    for t in range(1, int(time) + 1):
+    for t in range(1, int(time) + 1): #for i in range of 1 to the second specified Plus 1 as is 0 started 
         distance = 0.5 * gravity * t ** 2 #d = 1/2 gt^2
         print(f"At {t} seconds, the object has fallen {distance:.2f} meters")
 
