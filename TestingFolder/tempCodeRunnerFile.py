@@ -1,3 +1,3 @@
-
-
-    hue += 0.005
+    for number in numbers:
+            if number > secondLargest and number != largest:
+                secondLargest = number

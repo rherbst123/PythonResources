@@ -2,9 +2,10 @@
 #  This exercise assumes that you have already written the is_prime function in Programming 
 # Exercise 17. Write another program that displays all of the prime numbers from 1 to 100. 
 # The program should have a loop that calls the is_prime function.
-
+import time
 
 def is_prime(number):
+    
     isprime = False
     # Check if the input number is 1.
     # Note: By definition, 1 is not considered a prime number.
@@ -28,6 +29,7 @@ def is_prime(number):
 def main():
     size = int(input("Enter range: "))
     number = 0
+    start = time.time()
     for number in range(1,size):
         number += 1
     
@@ -38,7 +40,10 @@ def main():
              else:
              print(f"{number} is not prime.") #
         """
-    
+    end = time.time()
+    length = end - start
+    lengthF = "{:.6f}".format(length)
+    print("Calculation time: ", lengthF)
     #return 0
     #return 0
 
