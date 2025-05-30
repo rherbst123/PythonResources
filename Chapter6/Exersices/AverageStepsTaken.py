@@ -18,7 +18,6 @@ def main():
     with open("Chapter6/steps.txt") as step_file:
         steps_list = [int(line.strip()) for line in step_file]
 
-    # Days in each month for a non-leap year
     days_in_month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     month_names = ["January", "February", "March", "April", "May", "June",
                    "July", "August", "September", "October", "November", "December"]
@@ -29,7 +28,7 @@ def main():
         for day in range(days):
             print(f"  {month_names[month]} {day + 1}: {steps_list[index + day]}")
         index += days
-        
+
     index = 0
     for month, days in enumerate(days_in_month):
         month_steps = steps_list[index:index+days]
