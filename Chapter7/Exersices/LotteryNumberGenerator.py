@@ -17,4 +17,6 @@ for i in range(7):
 
 # Print the lottery numbers as a single whole number
 print("Your Lottery number is... ")
+
+#join each entry in the list one by one
 print(''.join(str(num) for num in lotteryNumber))
