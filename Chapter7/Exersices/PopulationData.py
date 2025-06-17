@@ -23,11 +23,8 @@ def average(average):
     print("Smallest increase in population:", min(differences))
 
 
-
-
-
 def main():
-    with open('C:\\Users\\Riley\\Documents\\GitHub\\RileyPython\\Chapter7\\Extra_Files\\USPopulation.txt', 'r') as population_data:
+    with open(r'/home/riley/Documents/GitHub/RileyPython/Chapter7/Extra_Files/USPopulation.txt', 'r') as population_data:
         population_list = [int(line.strip()) for line in population_data]
     print(population_list)
     average(population_list)
