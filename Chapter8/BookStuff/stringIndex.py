@@ -3,4 +3,3 @@
         #012345678901234
 words = "Gooby Dooby Doo"
 ch = words[7]
-print(ch)

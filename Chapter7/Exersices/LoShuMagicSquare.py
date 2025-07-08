@@ -56,7 +56,6 @@ else:
 
 # find sums for diagianal?
 # Print the diagonal numbers
-print("Diagonal numbers Top to Bottom:")
 for i in range(len(square)):
     #print(square[i][i], end=' ')
     diag1 += square[i][i]
