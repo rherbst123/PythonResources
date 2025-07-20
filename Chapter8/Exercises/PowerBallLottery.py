@@ -94,15 +94,34 @@ def isWinning(user_guess, winning_numbers):
 
     print(f"Here are the winning numbers: {winning_numbers}")    
 
-def stats(lines):
-    #Display most common 10 numbers
-    largest_number = 0
-    print(lines)
-    for counter in range(10):
+def greatestNumbers(lines):
+    foundLargest = []
+    for _ in range(10):
+        largest_number = 0
         for line in lines:
-            for numbers in line:
-                print(numbers)
-    counter += 1
+            for numbers in line.split():
+                number = int(numbers)
+                if number > largest_number and number not in foundLargest:
+                    largest_number = number
+        foundLargest.append(largest_number)
+    
+    return foundLargest
+
+
+def smallestNumbers(lines):
+    foundSmalls = []
+    for _ in range(10):
+        smallest_number = 70
+        for line in lines:
+            for numbers in line.split():
+                number = int(numbers)
+                if number < smallest_number and number not in foundSmalls:
+                    smallest_number = number
+        foundSmalls.append(smallest_number)
+    return foundSmalls
+    
+#def findOverdue(lines):
+
         
 
 
@@ -116,7 +135,8 @@ def main():
     print("Welecome to the lottery!")
     user_guess = getGuess(winning_numbers)
     print(f"Users Ticket: {user_guess}")
-    stats(lines)
+    greatestNumbers(lines)
+    smallestNumbers(lines)
 
 
     

@@ -1,6 +1,6 @@
 import time
 import sys
-sys.set_int_max_str_digits(0)
+
 
 x = 0
 y = 1
