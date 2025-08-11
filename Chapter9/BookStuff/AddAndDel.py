@@ -1,7 +1,7 @@
 #Adding and deleting elements in a dict.
 
 #Creating our dict
-phonebook = {'Jacob': '555-1111', 'john':'555-3333', 'carter': '666-3333'}
+phonebook = {'Jacob': '555-1111', 'john':'555-3333', 'carter': '666-3333', 'Mali': '812-3234'}
 
 #Manually adding a name and number
 phonebook['Bob'] = '654-8977'
