@@ -1,4 +1,4 @@
-# RileyPython
+# Python Resources
 
 Complete answer key and solutions for Python programming textbook exercises. Plus some Leetcode solutions.
 
