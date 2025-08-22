@@ -1,6 +1,12 @@
 # Python Resources
 
-Complete answer key and solutions for Python programming textbook exercises. Plus some Leetcode solutions.
+
+
+Hello! here is a complete answer key and solutions for Python programming textbook exercises. Plus some Leetcode solutions.
+Here are also some great learning resources for syntax and projects.
+https://www.w3schools.com/
+https://www.hackerrank.com/
+https://www.python.org/
 
 
 ### Chapter 2 - Basic Input/Output & Variables
