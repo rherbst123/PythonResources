@@ -15,7 +15,12 @@ item3 = float(item3)
 item4 = float(item4)
 item5 = float(item5)
 
-print("Here are itemised prices:" "\n", item1, "\n",item2, "\n" , item3, "\n", item4, "\n", item5)
+print("Here are itemised prices:" "\n", 
+      item1, "\n",
+      item2, "\n" , 
+      item3, "\n", 
+      item4, "\n", 
+      item5)
 
 subtotal = item1 + item2 + item3 + item4 + item5
 #float(subtotal)
