@@ -32,7 +32,7 @@ for i in range(years):
     totInch = 0
 
 average = added // months
-print(f"Total rain is:", added, "Inches. Over", months, "months. With an average rainfall of",average, "inches per month over the time period")
+print(f"Total rain is:", totInch, "Inches. Over", months, "months. With an average rainfall of",average, "inches per month over the time period")
     
 
 
