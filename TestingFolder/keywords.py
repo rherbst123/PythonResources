@@ -22,4 +22,3 @@ if __name__ == "__main__":
     main()
 
 
-random.randint(10,122)
