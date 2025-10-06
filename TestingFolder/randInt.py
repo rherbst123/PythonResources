@@ -9,12 +9,16 @@ import random
 # randomNumber2 = random.randrange(1,100,3)
 # print(randomNumber2)
 
+# randomNumber5 = random.random()
+# print(randomNumber5)
 
-# randomNumber3 = random.uniform(1.3, 1.4)
 
-# print(randomNumber3)
+# randomNumber3 = random.uniform(1.0, 1.5)
 
-random.seed(43)
-randomNumber4 = random.randint(1, 100)
+# print(format(randomNumber3,"0.2f"))
 
-print(randomNumber4)
+random.seed(4)
+for i in range(10):
+    randomNumber4 = random.randint(1, 100)
+
+    print(randomNumber4)

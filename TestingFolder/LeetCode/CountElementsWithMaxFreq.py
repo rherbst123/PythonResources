@@ -17,6 +17,6 @@ for number in nums:
     max_freq_elements = [count for count in counts.values() if count == max_count]
     total_sum = sum(max_freq_elements)
 
-print(total_sum)
+#@print(total_sum)
 
 return total_sum
