@@ -1,6 +1,6 @@
-import pygame
 import math
 import colorsys
+import pygame
 
 pygame.init()
 

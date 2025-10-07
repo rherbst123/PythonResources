@@ -4,7 +4,7 @@ a racetrack, and then uses a loop to prompt them to enter the lap time for each 
 When the loop finishes, the program should display the time of their fastest lap, the time of 
 their slowest lap, and their average lap time. """
 
-laps = int(input("How many times you gonna run that hoe?: "))
+laps = int(input("How many times you gonna run the track "))
 times = []
 total = 0.0
 

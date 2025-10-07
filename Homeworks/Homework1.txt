@@ -1,0 +1,118 @@
+CST-236 Homework 1:
+
+Homework is given on 9/11 and will be due on 9/18 at Midnight! 
+
+Instructions:
+    - Create a new Folder in your GitHub Repository named Homework_1_{YourName} EX: Homework_1_Riley_Herbst
+    - All Homework needs to be pushed to the correct Folder and must be sbmitted before or at Midnight on 9/18
+    - Solutions will be posted on 9/23 and after solutions are posted there will be no more chances to submit
+    - For each day late 10% of the points will be deducted so 4 days late would be 40% deducted
+
+
+================================================================================
+
+QUESTION 1: Basic Input and Calculations (15 points)
+Based on: PersonalInfo.py and CircleMeasurements.py
+
+Write a program that asks the user for their name and the radius of a circle. 
+
+The program should:
+- Display a personalized greeting using their name 
+- Calculate and display the area of the circle using the formula πr²
+- Format the area to 2 decimal places
+- Use π = 3.14159
+
+Example Output:
+Enter your name: Riley
+Enter the radius: 5
+Hello, RIley
+The area of your circle is: 78.54
+
+================================================================================
+
+QUESTION 2: Recipe Scaling with Input Validation (20 points)
+Based on: IngredientAdjuster.py and basic conditionals
+
+Create a program that helps scale a cookie recipe. The original recipe makes 48 cookies and requires:
+- 1.5 cups of sugar
+- 1 cup of butter  
+- 2.75 cups of flour
+
+Your program should:
+- Ask the user how many cookies they want to make
+- Check if the number is positive (greater than 0)
+- If invalid, display an error message
+- If valid, calculate and display the required ingredients formatted to 2 decimal places
+
+Example Output:
+Enter number of cookies: -5
+Error: Please enter a positive number!
+
+Enter number of cookies: 24
+For 24 cookies, you will need:
+Sugar: 0.75 cups
+Butter: 0.50 cups
+Flour: 1.38 cups
+
+================================================================================
+
+QUESTION 3: Temperature Converter with Weather Advisory (25 points)
+Based on: Mathematical calculations and conditional logic 
+
+Write a program that converts temperatures and provides weather-appropriate clothing advice. 
+
+The program should:
+- Ask the user to enter a temperature in Fahrenheit
+- Convert the temperature to Celsius using: C = (F - 32) × 5/9
+- Display the temperature in both Fahrenheit and Celsius (rounded to 1 decimal place)
+- Provide clothing advice based on the Fahrenheit temperature:
+  - Below 32°F: "Freezing! Wear heavy winter clothing and stay warm!"
+  - 32-50°F: "Cold - Wear a warm jacket and layers"
+  - 51-65°F: "Cool - A light jacket or sweater recommended"
+  - 66-75°F: "Comfortable - Light clothing is perfect"
+  - 76-85°F: "Warm - Shorts and t-shirt weather!"
+  - Above 85°F: "Hot! Stay hydrated and wear light, breathable clothing"
+
+Example Output:
+Enter temperature in Fahrenheit: 68
+Temperature: 68.0°F = 20.0°C
+Weather advice: Comfortable - Light clothing is perfect
+
+================================================================================
+
+QUESTION 4: Advanced Sales Calculator (40 points)
+Based on: SoftwareSales.py and CompoundIntrest.py concepts
+
+Create a comprehensive sales system for a software company. The base price is $99 per package with these discount tiers:
+- 10-19 packages: 10% discount
+- 20-49 packages: 20% discount  
+- 50-99 packages: 30% discount
+- 100+ packages: 40% discount
+
+Additionally, if the customer is a returning customer, they get an extra 5% off the final price.
+
+Your program should:
+- Ask for quantity and customer status (new/returning)
+- Validate that quantity is positive
+- Calculate the base cost, discount amount, and final price
+- If returning customer, apply the additional 5% discount
+- Display a detailed receipt showing all calculations
+
+Example Output:
+Quantity: 25
+Customer type (new/returning): returning
+Base cost: $2475.00
+Volume discount (20%): $495.00
+Subtotal: $1980.00
+Returning customer discount (5%): $99.00
+Final total: $1881.00
+
+================================================================================
+
+TOTAL POINTS: 100 points
+
+Point Distribution:
+- Question 1: 15 points 
+- Question 2: 20 points 
+- Question 3: 25 points 
+- Question 4: 40 points 
