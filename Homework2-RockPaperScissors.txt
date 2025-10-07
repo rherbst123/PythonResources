@@ -1,0 +1,98 @@
+HOMEWORK 2 CST 236 ROCK PAPER SCISSORS GAME
+
+PROGRAM SETUP (5 points):
+- Save as "RockPaperScissors.py" [2 pts]
+- Run with: python RockPaperScissors.py [3 pts]
+
+GAME RULES (5 points):
+- Rock beats Scissors, Scissors beats Paper, Paper beats Rock [5 pts]
+
+MENU SYSTEM (15 points):
+- Display 3 options: Play Game, Show Stats, Quit [5 pts]
+- Accept only valid menu choices (1, 2, 3) [5 pts]
+- Return to menu after each action except quit [5 pts]
+
+GAMEPLAY FUNCTIONALITY (25 points):
+- Ask for number of rounds [5 pts]
+- Get player move (1=Rock, 2=Paper, 3=Scissors) [5 pts]
+- Generate random computer move [5 pts]
+- Display both moves and determine winner [5 pts]
+- Complete all rounds using for loop [5 pts]
+
+INPUT VALIDATION (15 points):
+- Validate menu choices [5 pts]
+- Validate move choices [5 pts]
+- Handle non-numeric input without crashing [5 pts]
+
+SCORE TRACKING (15 points):
+- Track wins/losses/ties per game session [8 pts]
+- Accumulate total stats across multiple games [7 pts]
+
+STATISTICS DISPLAY (10 points):
+- Show total games, wins, losses, ties [10 pts]
+
+PROGRAMMING CONCEPTS (10 points):
+- Variables for game state [3 pts]
+- Functions for game operations [3 pts]
+- For loop for multiple rounds [2 pts]
+- While loops for menu and validation [2 pts]
+
+TOTAL: 100 points
+
+REQUIRED FUNCTIONS:
+- show_menu() - Display options
+- get_player_move() - Get and validate player choice
+- get_computer_move() - Generate random computer choice
+- move_name() - Convert number to Rock/Paper/Scissors
+- find_winner() - Determine round winner
+- show_result() - Display round outcome
+- show_stats() - Display game statistics
+- play_rounds() - Handle multiple rounds with for loop
+- main() - Main game loop with while loop
+
+GAME FLOW:
+1. Show menu
+2. Get user choice
+3. If Play Game: ask rounds → play each round → show results
+4. If Show Stats: display accumulated statistics
+5. If Quit: show final stats and exit
+6. Repeat until quit
+
+INPUT REQUIREMENTS:
+- Menu: Accept 1, 2, or 3 only
+- Moves: Accept 1, 2, or 3 only
+- Rounds: Accept positive integers only
+- Error handling: Show message and re-prompt for invalid input
+
+EXAMPLE SESSION:
+Rock Paper Scissors Game
+1. Play Game
+2. Show Stats  
+3. Quit
+Enter your choice: 1
+
+How many rounds? 2
+
+Round 1
+Choose your move:
+1. Rock  2. Paper  3. Scissors
+Enter 1, 2, or 3: 1
+
+You picked: Rock
+Computer picked: Scissors
+You win!
+
+Round 2
+Choose your move:
+1. Rock  2. Paper  3. Scissors
+Enter 1, 2, or 3: 2
+
+You picked: Paper
+Computer picked: Rock
+You win!
+
+Final Results:
+You won 2 rounds
+Computer won 0 rounds
+Tied 0 rounds
+You won overall!

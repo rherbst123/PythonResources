@@ -12,5 +12,5 @@ area =  circle * radius ** 2
 print(area)
 
 
-print("The area of said circle is: ", format(area, "0.2f"))
+print("The area of said circle is: ", area , format(area, "0.2f"))
 
