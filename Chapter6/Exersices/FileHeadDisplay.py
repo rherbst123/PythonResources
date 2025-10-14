@@ -7,8 +7,8 @@
 
 def display(file_name):
     
-    #tells you how many lines are in the textg file, for our case it is 25 TOTAl lines, we only want the first 5
-    numOfLines = sum(1 for _ in open(file_name)) # for anything in file
+    #tells you how many lines are in the textg file, for our case it is 21 TOTAl lines, we only want the first 5
+    numOfLines = sum(1 for i in open(file_name)) # for anything in file # = 43 
     print(f"{numOfLines}, numOfLines")
     
     #Open file, if number of lines is lessThan 5 print it all, if greater than 5, only print 5 lines
@@ -16,18 +16,15 @@ def display(file_name):
 
     if numOfLines < 5:
         for line in info:
-            print(line, end='')
+            print("less than 5",line, end='')
             
     else:
-        for i in range(5):
+        for i in range(10):
             print(info.readline(), end='') #Read line
             
-        
-    
-            
-
 def main():
-    file_name = "Chapter6//numbers.txt"
+    #file_name = input("Enter a file path: ")
+    file_name = "Chapter6/numbers.txt"
     display(file_name)
 
 main()

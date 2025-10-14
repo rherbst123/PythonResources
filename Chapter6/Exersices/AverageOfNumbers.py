@@ -18,11 +18,8 @@ def numberStuff(numbers):
     avg = total / size
     return avg
 
-
-
-
 def main():
-    numbers = "Chapter6\\numbers.txt"
+    numbers = "Chapter6/numbers.txt"
     avg = numberStuff(numbers)
     print(f"average {format(avg,"0.2f")}")
 
