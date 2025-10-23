@@ -1,4 +1,4 @@
-Rent: 850
+Rent: 750
 Gas: 25
 Food: 450
 Clothing: 10
