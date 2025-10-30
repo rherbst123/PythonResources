@@ -1,0 +1,101 @@
+HOMEWORK 3 - BANK APP
+
+ASSIGNMENT OVERVIEW:
+Create a two-part Python bank manager system consisting of:
+1. BankInput.py - Transaction input program (50 points)
+2. BankAnalysis.py - Transaction analysis program (50 points)
+
+Total Assignment Points: 100
+
+===============================================
+PART 1: BankInput.py - TRANSACTION INPUT PROGRAM (50 POINTS)
+===============================================
+
+REQUIREMENTS:
+
+1. USER INPUT (20 points)
+   - Prompt user for transaction type (deposit or withdrawal)
+   - Prompt user for transaction amount
+   - Validate input (reject invalid types and negative/zero amounts)
+   - Handle errors with re-prompting
+   - If user enters exit/quit program finishes and saves
+
+2. FILE OPERATIONS (15 points)
+   - Save transactions to "transactions.txt" file
+   - Use proper file handling (append mode)
+   - Format: "transaction_type,amount" (e.g., "deposit,100.00")
+   - Format amounts to 2 decimal places
+
+3. PROGRAM FLOW (10 points)
+   - Allow multiple transaction entries
+   - Provide option to quit/exit program
+   - Use functions to organize code
+   - Clear user interface with prompts and confirmations
+
+4. ERROR HANDLING (5 points)
+   - Handle invalid input without crashing
+   - Provide meaningful error messages
+
+===============================================
+PART 2: BankAnalysis.py - TRANSACTION ANALYSIS PROGRAM (50 POINTS)
+===============================================
+
+REQUIREMENTS:
+
+1. FILE READING (15 points)
+   - Read data from "transactions.txt" file
+   - Parse each line correctly (split by comma)
+   - Handle file not found errors
+   - Skip empty or malformed lines
+
+2. CALCULATIONS (25 points)
+   - Count total transactions
+   - Count deposits and withdrawals separately
+   - Calculate total deposits and withdrawals
+   - Calculate current account balance
+   - Find largest deposit and withdrawal amounts
+   - Calculate average deposit and withdrawal amounts
+
+3. OUTPUT DISPLAY (10 points)
+   - Display all calculated information clearly
+   - Format currency amounts to 2 decimal places
+   - Show account status (positive/negative balance)
+   - Organize output in readable format
+
+REQUIRED OUTPUT INFORMATION:
+- Total number of transactions
+- Number of deposits and withdrawals
+- Total amount deposited and withdrawn
+- Current account balance
+- Largest single deposit and withdrawal
+- Average deposit and withdrawal amounts
+- Account status
+
+===============================================
+EXAMPLES:
+===============================================
+
+SAMPLE transactions.txt:
+deposit,1000.00
+withdrawal,200.00
+deposit,500.00
+withdrawal,150.00
+
+EXPECTED ANALYSIS OUTPUT:
+Transaction Summary:
+Total Transactions: 4
+Deposits: 2
+Withdrawals: 2
+
+Financial Summary:
+Total Deposits: $1500.00
+Total Withdrawals: $350.00
+Current Balance: $1150.00
+Status: Positive Balance
+
+Additional Information:
+Largest Deposit: $1000.00
+Largest Withdrawal: $200.00
+Average Deposit: $750.00
+Average Withdrawal: $175.00
+

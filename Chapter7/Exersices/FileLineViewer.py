@@ -10,23 +10,24 @@
 # •  IndexError exceptions that are raised when the line number is outside the range of the 
 # data list
 
-theFile = open("Chapter7/Extra_Files/BoyNames.txt", 'r')
-
-try:
-    # Read all lines into a list
-    lines = theFile.readlines()
-    print(f"The file contains {len(lines)} lines.")
-    
-    # Ask the user for the line number they want to view
-    line_number = int(input("Enter the line number you want to view: "))
-    
-    # Display the specified line
-    print(lines[line_number - 1].strip())
-except IOError:
-    print("Error: The file could not be found or opened.")
-except ValueError:
-    print("Error: Please enter a valid integer for the line number.")
-except IndexError:
-    print("Error: The line number is out of range.")
-finally:
-    theFile.close()
+while True:
+    try:
+        theFile = open("Chapter7/Extra_Files/BoyNames.txt", 'r')
+        # Read all lines into a list
+        lines = theFile.readlines()
+        print(f"The file contains {len(lines)} lines.")
+        
+        # Ask the user for the line number they want to view
+        line_number = int(input("Enter the line number you want to view: "))
+        
+        # Display the specified line
+        print(lines[line_number - 1].strip())
+        break
+    except IOError:
+        print("Error: The file could not be found or opened.")
+    except ValueError:
+        print("Error: Please enter a valid integer for the line number.")
+    except IndexError:
+        print("Error: The line number is out of range.")
+    finally:
+        theFile.close()
