@@ -7,4 +7,3 @@ Frank 73
 Grace 90
 Hank 84
 Ivy 91
-Jack 99

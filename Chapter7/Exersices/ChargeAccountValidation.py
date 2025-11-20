@@ -9,11 +9,22 @@
 # should display a message indicating the number is valid. If the number is not in the list, the 
 # program should display a message indicating the number is invalid
 
-# Open the file, read each valid account and store them in a list
-with open('/home/riley/Documents/GitHub/RileyPython/Chapter7/Extra_Files/charge_accounts.txt', 'r') as file:
-    valid_accounts = [line.strip() for line in file if line.strip()]
+# # Open the file, read each valid account and store them in a list
+# with open('/home/riley/Documents/GitHub/RileyPython/Chapter7/Extra_Files/charge_accounts.txt', 'r') as file:
+#     valid_accounts = [line.strip() for line in file if line.strip()]
 
-print(valid_accounts)
+
+valid_accounts = []
+with open("/home/riley/Documents/GitHub/RileyPython/Chapter7/Extra_Files/charge_accounts.txt", "r") as accounts:
+    print(accounts.read())
+#     for line in accounts:
+#         valid_accounts.append(line.strip())
+# print(valid_accounts)
+        
+
+
+
+#print(valid_accounts)
 
 # Ask user for a charge account number
 account_number = input("Enter a charge account number: ")

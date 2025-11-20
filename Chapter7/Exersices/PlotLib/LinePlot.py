@@ -8,6 +8,6 @@ def main():
 
     plt.plot(x,y)
 
-    plt.show()
+    #plt.show()
 
 main()

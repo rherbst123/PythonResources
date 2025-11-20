@@ -21,7 +21,6 @@ def scores(roster):
     #Optional for getting full roster
  
 
-
     # Iterate through each line in the file
     for lines in roster:
         # Increment the record counter for each line
@@ -46,6 +45,6 @@ def scores(roster):
 
 
 def main():
-    roster = "Chapter6//scores.txt"
+    roster = "Chapter6/scores.txt"
     scores(roster)
 main()

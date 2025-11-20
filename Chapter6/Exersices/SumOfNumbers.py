@@ -5,12 +5,12 @@
 
 #pretty simple
 def main():
-    numbers = open("Chapter6\\numbers.txt","r")
+    numbers = open("Chapter6/numbers.txt","r")
 
-    total = 0.0
+    total = 0
 
     for lines in numbers:
-        number = float(lines)
+        number = int(lines)
         total += number
 
     print(total)

@@ -24,7 +24,7 @@ def displayFile(text):
 
 
 def main():
-    text = "Chapter6//numbers.txt"
+    text = "Chapter6/numbers.txt"
     displayFile(text)
 
 main()
