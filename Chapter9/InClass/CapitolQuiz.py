@@ -1,10 +1,3 @@
-# 2.  Capital Quiz
-# Write a program that creates a dictionary containing the U.S. states as keys, and their capi-
-# tals as values. (Use the Internet to get a list of the states and their capitals.) The program 
-# should then randomly quiz the user by displaying the name of a state and asking the user 
-# to enter that state’s capital. The program should keep a count of the number of correct and 
-# incorrect responses. (As an alternative to the U.S. states, the program can use the names of 
-# countries and their capitals.
 import random
 
 states_and_capitals = {
@@ -60,29 +53,28 @@ states_and_capitals = {
     'Wyoming': 'Cheyenne'
 }
 
-# states_and_capitals = {
-#     'Alabama': 'Montgomery',
-#     'Alaska': 'Juneau'
-
-# }
-
-
 
 wrong = 0
 right = 0
+
+#print(states_and_capitals)
 
 states_list = list(states_and_capitals.keys())
 random.shuffle(states_list)
 
 for state in states_list:
-    print(f"What is the capital of {state}?")
+    print(f"What is the capitol of {state}")
     answer = input()
     if answer == states_and_capitals[state]:
-        print("Correct!")
+        print("Correct")
         right += 1
     else:
-        print("Incorrect!")
+        print("Incorrect")
         wrong += 1
 
-print(f"You got {right} correct and {wrong} wrong.")
+print(f"You got {right}, questions right and {wrong} wrong")
+
+
+
+
 

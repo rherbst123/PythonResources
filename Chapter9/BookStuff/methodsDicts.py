@@ -62,9 +62,9 @@ print(f"Full: {phonebook}")
 "Pop Item"
 
 # "As we can see it removes emily from the list"
-# key, value = phonebook.popitem()
-# print(key, value)
-# print(f"New: {phonebook}")
+key, value = phonebook.popitem()
+print(key, value)
+print(f"New: {phonebook}")
 
 
 

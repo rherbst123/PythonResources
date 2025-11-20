@@ -9,11 +9,11 @@ with open(r'/home/riley/Documents/GitHub/RileyPython/Chapter9/Files/UniqueWords.
 
 words = message.split()
 # Create an empty set to store unique words
-uniqueWords = set()
+uniqueWords = {}
 
-# Add each word to the set
+# Add each word to the dictionary
 for word in words:
-    uniqueWords.add(word)
+    uniqueWords[word] = True
     
 # Print all unique words
 print("List of unique words found in the file:")
