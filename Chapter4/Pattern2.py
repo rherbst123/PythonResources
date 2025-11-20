@@ -13,4 +13,4 @@ spaceNum = 0
 
 for i in range(7):
     print(f"{star}{spaceNum*space}{star}")
-    spaceNum += 1
+    spaceNum + 1
